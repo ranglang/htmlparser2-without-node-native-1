@@ -4,9 +4,9 @@ var htmlparser2 = require(".."),
 describe("API", function(){
 
 	it("should load all modules", function(){
-		var Stream = require("../lib/Stream.js");
-		assert.strictEqual(htmlparser2.Stream, Stream, "should load module");
-		assert.strictEqual(htmlparser2.Stream, Stream, "should load it again (cache)");
+		// var Stream = require("../lib/Stream.js");
+		// assert.strictEqual(htmlparser2.Stream, Stream, "should load module");
+		// assert.strictEqual(htmlparser2.Stream, Stream, "should load it again (cache)");
 
 		var ProxyHandler = require("../lib/ProxyHandler.js");
 		assert.strictEqual(htmlparser2.ProxyHandler, ProxyHandler, "should load module");
